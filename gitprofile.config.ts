@@ -1,6 +1,6 @@
 // gitprofile.config.ts
 
-const CONFIG = {
+const CONFIG = { //comment
   github: {
     username: 'melanie-09', // Your GitHub org/user name. (This is the only required config)
   },
