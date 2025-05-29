@@ -25,7 +25,7 @@ const CONFIG = { //comment
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,20 @@ const CONFIG = { //comment
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Machine Learning for Improving Non-American English Speech Recognition',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Developed an RNN machine learning model using supervised learning in Python to improve the accuracy of existing speech recognition by 74% for people with non-American English accents, exposing and addressing racial biases.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Hydraulic Prosthetic Hand Prototype',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Modeled a hydraulic prosthetic hand prototype under $60 to address the need for more affordable models. Designed and 3D-printed a prosthetic hand in AutoCAD and assembled a hydraulic motor system programmed in C++.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // link: 'https://example.com',
         },
       ],
     },
@@ -62,7 +62,7 @@ const CONFIG = { //comment
   },
   resume: {
     fileUrl:
-      'file:///C:/Users/mop95/Downloads/Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
