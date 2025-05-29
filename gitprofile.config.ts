@@ -57,12 +57,12 @@ const CONFIG = { //comment
     imageURL: '',
   },
   social: {
-    linkedin: 'melanie-navaratna',
+    linkedin: 'melanie-navaratna-284a81294',
     email: 'navaratna.melanie@gmail.com',
   },
   resume: {
     fileUrl:
-      'Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'public/Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
