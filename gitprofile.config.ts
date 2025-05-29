@@ -52,116 +52,78 @@ const CONFIG = { //comment
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Melanie Navaratna',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'melanie-navaratna',
+    email: 'navaratna.melanie@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'file:///C:/Users/mop95/Downloads/Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'TypeScript',
     'JavaScript',
     'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'SQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Java',
+    'Go'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Rice University Information Security Office',
+      position: 'Information Security Analyst Intern',
+      from: 'May 2023',
+      to: 'August 2023',
+      companyLink: 'https://iso.rice.edu/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Maydm',
+      position: 'Summer Program Instructor',
+      from: 'June 2024',
+      to: 'August 2024',
+      companyLink: 'https://www.maydm.org/',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Rice Bikes',
+      position: 'Personnel Manager and Manager on Shift',
+      from: 'February 2023',
+      to: 'present',
+      companyLink: 'https://www.ricebikes.com/',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      institution: 'Rice University',
+      degree: 'Bachelor\'s Degree',
+      from: '2022',
+      to: '2026 (expected)',
+    }
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Are Household Devices Spying on our Conversations?',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Journal of PGSS',
+      authors: 'Alisa Lo, Saishree Mupparaju, Melanie Navaratna, Krystof Purtell, Rohan Shah',
+      link: 'https://sciences.pa-gov-schools.org/program/pgss-journal-archives/#1f2E6xUuL4hDIGdxG2Tv-l3WdDjtkjK4dhttps://',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+        'The concept that phones and other household devices spy on human conversations has become increasingly debated in recent years, with many fully convinced that their electronic devices are listening in on their conversations. The belief is that phones use keywords or phrases from daily discussions to retarget advertisements related to these discussed topics. We collected data after applying a set of conversation and website stimuli to our devices to calculate a treatment effect that determines the presence of spying and advertisement retargeting. Contrary to the popular belief in spying phones, for all of our phone conversation data sets, we failed to reject the null hypothesis, meaning an inability to express a treatment effect. Our data and analysis indicate that the claim that devices spy on our conversations cannot be proven true; however, an effect too small to detect in our experiment remains a possibility.',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many articles to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
