@@ -62,7 +62,7 @@ const CONFIG = { //comment
   },
   resume: {
     fileUrl:
-      'public/Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '../../../public/Navaratna_Melanie_Resume_PLUS.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
